@@ -25,7 +25,7 @@ function App() {
       {serverData ? (
         <p>Data from server: {serverData.message}</p>
       ) : (
-        <p>Loading data...</p>
+        <p className="text-3xl font-bold bg-red-400 underline">Loading data...</p>
       )}
     </div>
   );
